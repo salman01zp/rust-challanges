@@ -48,11 +48,12 @@ fn test_case1(){
     let nums = vec![-2, 1, -3, 4, -1, 2, 2, -5, 4];
     let  max_sum = max_sub_array(nums);
     assert_eq(max_sum,7);
+}
 
-    #[test]
+#[test]
 
-    fn test_case2(){
-    let nums = vec![1];
-    let  max_sum = max_sub_array(nums);
-    assert_eq(max_sum,1);
+fn test_case2(){
+let nums = vec![1];
+let  max_sum = max_sub_array(nums);
+assert_eq(max_sum,1);
 }
